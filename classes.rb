@@ -1,8 +1,10 @@
 class Product
   attr_reader :name
 
-  def initialize(name)
+
+  def initialize(name, reference_number)
     @name = name
+    @reference_number = reference_number
   end
 end
 
