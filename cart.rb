@@ -45,6 +45,8 @@ def add_to_cart(product, amount)
   @inventory[product]["quantity"] -= amount
 end
 
+puts "Welcome to the NEW store!"
+
 build_inventory
 show_inventory
 
